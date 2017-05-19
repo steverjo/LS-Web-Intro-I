@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  max-width: 100%;
+  height: 15vh;
+  background: purple;
+}
+
+main {
+  max-width: 70%;
+  margin: auto;
+  background: red;
+  height: 85vh;
+  overflow: hidden;
+}
+
+article {
+  background: blue;
+  margin: 20px auto;
+  height: 22vh;
+  width: 60%;
+  display: grid;
+  grid-template-columns: 30% 55%;
+  grid-gap: .5em;
+  justify-content: center;
+}
+.space {
+  margin-top: 35px;
+}
+.yellow-box {
+  background: yellow;
+  height: 40%;
+  margin-top: 1em;
+}
+.green-box {
+  background: green;
+  height: 65%;
+  margin-top: 1em;
+}

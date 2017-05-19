@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: yellow;
+}
+
+header {
+  background: red;
+  width: 100%;
+  height: 10vh;
+}
+
+main {
+  max-width: 70%;
+  background: blue;
+  margin: 0 auto;
+  height: 80vh;
+}
+
+footer {
+  background: green;
+  max-width: 70%;
+  margin: 0 auto;
+  height: 10vh;
+}
